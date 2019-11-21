@@ -1,0 +1,92 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ImageView
+        android:id="@+id/cameraBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        />
+
+    <FrameLayout
+        android:id="@+id/previewFrame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/buttonLayout"
+        >
+        <org.androidtown.jm.JM_camerasurfaceview
+            android:id="@+id/cameraView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+             />
+
+        <RelativeLayout
+            android:id="@+id/guideLayout"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:visibility="visible"
+            android:layout_gravity="top">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="200dp">
+                <ImageView
+                    android:id="@+id/guideLine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="여기에 선추가해서 가이드만들면됨"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp">
+        <Button
+            android:id="@+id/changeButton"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="화면전환"
+            android:textSize="16dp"
+            />
+        <Button
+            android:id="@+id/captureButton"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="사진찍기"
+            android:textSize="16dp"
+            />
+        <Button
+            android:id="@+id/backgroundButton"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="배경설정"
+            android:textSize="16dp"
+
+            />
+    </LinearLayout>
+</RelativeLayout>

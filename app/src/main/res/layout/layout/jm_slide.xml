@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <CheckBox
+    	android:id="@+id/chkAuto"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Check for Auto Flip" />
+	<ViewFlipper
+		android:id="@+id/viewFlipper"  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    >
+		<ImageView
+			android:id="@+id/imgslide1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"/>
+		<ImageView
+			android:id="@+id/imgslide2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center" />
+		<ImageView
+			android:id="@+id/imgslide3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center" />
+		<ImageView
+			android:id="@+id/imgslide4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center" />
+		<ImageView
+			android:id="@+id/imgslide5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center" />
+		<ImageView
+			android:id="@+id/imgslide6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center" />
+		<ImageView
+			android:id="@+id/imgslide7"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center" />
+		<ImageView
+			android:id="@+id/imgslide8"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"/>
+		<ImageView
+			android:id="@+id/imgslide9"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"/>
+		<ImageView
+			android:id="@+id/imgslide10"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"/>
+	</ViewFlipper>
+</LinearLayout>

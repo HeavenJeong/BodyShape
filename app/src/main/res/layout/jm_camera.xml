@@ -1,0 +1,92 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ImageView
+        android:id="@+id/cameraBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        />
+
+    <FrameLayout
+        android:id="@+id/previewFrame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/buttonLayout"
+        >
+
+        <com.example.haewonjeong.bs.JM_camerasurfaceview
+            android:id="@+id/cameraView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+             />
+
+        <RelativeLayout
+            android:id="@+id/guideLayout"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:visibility="visible"
+            android:layout_gravity="top">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="200dp"
+                android:id="@+id/linearLayout"></LinearLayout>
+
+            <ImageView
+                android:id="@+id/guideLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jm_guide"
+                android:layout_alignBottom="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp">
+        <Button
+            android:id="@+id/changeButton"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16dp"
+            android:background="@drawable/cmr2_1"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/captureButton"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16dp"
+            android:background="@drawable/cmr2_2"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/backgroundButton"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16dp"
+            android:layout_margin="5dp"
+
+            android:background="@drawable/cmr2_3" />
+    </LinearLayout>
+</RelativeLayout>

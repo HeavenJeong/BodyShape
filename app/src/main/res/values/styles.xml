@@ -1,0 +1,25 @@
+
+<resources>
+    <!-- Base application theme. -->
+    <!-- 기본 스타일 지정 -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar"></style>
+        <!-- Customize your theme here. -->
+    <!-- 위에 정의한 기본 스타일을 상속받는 스타일 지정 -->
+    <style name="AppTheme.cus" parent="AppTheme">
+
+        <item name="android:checkboxStyle">@style/CheckBoxAppTheme</item>
+
+        <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtonAppTheme</item>
+
+        <item name="android:listViewStyle">@style/ListViewAppTheme</item>
+
+        <item name="android:listViewWhiteStyle">@style/ListViewAppTheme.White</item>
+
+        <item name="android:spinnerItemStyle">@style/SpinnerItemAppTheme</item>
+
+    </style>
+
+
+</resources>

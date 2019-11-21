@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.haewonjeong.bs" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bs_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.cus" >
+        <activity android:name=".JM_overlap" />
+        <activity
+            android:name=".JM_camera"
+            android:screenOrientation="portrait" />
+        <activity android:name=".JM_customergallery" />
+        <activity android:name=".JM_slide" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ManboActivity" />
+        <activity android:name=".JM_main" />
+        <activity android:name=".ks_MainActivity" />
+        <activity android:name=".HealthActivity" />
+        <activity android:name=".FoodActivity" />
+        <activity android:name=".Food_day" />
+        <activity android:name=".User_info" />
+        <activity
+            android:name=".Food_Search"
+            android:label="@string/title_activity_food__search" >
+        </activity>
+        <activity
+            android:name=".Health_List"
+            android:label="@string/title_activity_health__list" >
+        </activity>
+        <activity
+            android:name=".FoodAcitivity2"
+            android:label="@string/title_activity_food_acitivity2" >
+        </activity>
+        <activity
+            android:name=".FoodActivity2"
+            android:label="@string/title_activity_food2" >
+        </activity>
+        <activity
+            android:name=".FoodActivity3"
+            android:label="@string/title_activity_food3" >
+        </activity>
+        <activity
+            android:name=".Food_Search2"
+            android:label="@string/title_activity_food__search2" >
+        </activity>
+        <activity
+            android:name=".Food_Search3"
+            android:label="@string/title_activity_food__search3" >
+        </activity>
+        <activity
+            android:name=".History_cal"
+            android:label="@string/title_activity_history_cal" >
+        </activity>
+    </application>
+
+</manifest>

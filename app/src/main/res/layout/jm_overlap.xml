@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Preview"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgMulPick1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:src="@drawable/no_media" />
+        <ImageView
+            android:id="@+id/imgMulPick2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:src="@drawable/no_media" />
+        <ImageView
+            android:id="@+id/imgMulPick3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:src="@drawable/no_media" />
+        <ImageView
+            android:id="@+id/imgMulPick4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:src="@drawable/no_media" />
+        <ImageView
+            android:id="@+id/imgMulPick5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:src="@drawable/no_media" />
+        <ImageView
+            android:id="@+id/imgMulPick6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:src="@drawable/no_media" />
+        <ImageView
+            android:id="@+id/imgMulPick7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:src="@drawable/no_media" />
+        <ImageView
+            android:id="@+id/imgMulPick8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:src="@drawable/no_media" />
+        <ImageView
+            android:id="@+id/imgMulPick9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:src="@drawable/no_media" />
+
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/bodyshape" />
+
+        <TableLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:layout_margin="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="3sp"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/imageButton"
+                    android:src="@drawable/bscamera_main"
+                    android:background="@null"
+                    android:onClick="go_camera"/>
+
+                <ImageButton
+                    android:layout_margin="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="3sp"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/imageButton2"
+                    android:background="@null"
+                    android:src="@drawable/bsjh_main"
+                    android:onClick="go_manbo"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+
+                    android:layout_margin="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="3sp"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/imageButton3"
+                    android:background="@null"
+                    android:src="@drawable/bsfood_main"
+                    android:onClick="go_food"/>
+
+                <ImageButton
+                    android:layout_margin="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="3sp"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/imageButton4"
+                    android:background="@null"
+                    android:src="@drawable/bsexer_main"
+                    android:onClick="go_exercise"
+                    />
+            </TableRow>
+        </TableLayout>
+
+</LinearLayout>

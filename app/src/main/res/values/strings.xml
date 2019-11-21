@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">BS</string>
+
+    <string name="title_section1">HOME</string>
+    <string name="title_section2">CAMERA</string>
+    <string name="title_section3">LET US RUN</string>
+    <string name="title_section4">FOOD</string>
+    <string name="title_section5">EXERCISE</string>
+    <string name="title_section6">MY STATUS</string>
+    <string name="title_section7">INFO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">MY STATUS</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_back">Back</string>
+    <string name="action_home">Home</string>
+    <string name="action_info">Info</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_jinjin">jinjin</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_jinho">Jinho</string>
+
+    <string name="title_activity_health">HealthActivity</string>
+    <string name="title_activity_food">FoodActivity</string>
+    <string name="title_activity_food_day">Food_day</string>
+    <string name="title_activity_food__search">Food_Search</string>
+    <string name="title_activity_health__list">Health_List</string>
+    <string name="title_activity_food2">FoodActivity2</string>
+    <string name="title_activity_food_acitivity2">FoodAcitivity2</string>
+    <string name="title_activity_food3">FoodActivity3</string>
+    <string name="title_activity_food__search2">Food_Search2</string>
+    <string name="title_activity_food__search3">Food_Search3</string>
+    <string name="title_activity_history_cal">History_cal</string>
+    <string name="title_activity_history">History</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!-- 기본 스타일 지정 -->
+  <style name="AppTheme2" parent="@style/_AppTheme2"/>
+
+  <!-- 위에 정의한 기본 스타일을 상속받는 스타일 지정 -->
+  <style name="_AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <item name="android:checkboxStyle">@style/CheckBoxAppTheme</item>
+
+    <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonAppTheme</item>
+
+    <item name="android:listViewStyle">@style/ListViewAppTheme</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewAppTheme.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemAppTheme</item>
+
+  </style>
+
+</resources>
